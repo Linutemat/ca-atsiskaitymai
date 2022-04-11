@@ -266,5 +266,45 @@ body{
         }
       }
       
+   /* Tablet screen */
+  @media screen and (min-width: 737px) {
+    body{
+      margin:30px;
+    }
+
+    .headerToggle {
+        display: none;
+    }
+
+    .left {
+        flex: 3;
+         align-items: flex-start;
+         margin-top: 50px;
+    }
+        
+    .right{
+      flex: 5;
+      align-self: flex-end;
+    }
+    .right img {
+      width: 70%;
+      padding: 50px 0 0 0;
+      margin-bottom: 0px;
+    }
+
+  .container .right {
+     text-align: right;
+    }
+
+    .logorowone .bloom {
+      display: none;
+      }
       
+      .mainthree .logoblocks {
+        display: flex
+      }
+      
+     
+  }
+     
       
